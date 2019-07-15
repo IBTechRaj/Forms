@@ -12,15 +12,24 @@
 -->
 
 
-<%= form_tag('/users', method: "post") do %>
-<%= label_tag('email     : ') %>
-<%= text_field_tag( :email) %>
-<%= label_tag('User name : ') %>
-<%= text_field_tag( :username) %>
-<%= label_tag('password  : ') %>
-<%= password_field_tag( :password) %>
-<%= submit_tag('submit ') %>
+<%#= form_tag('/users', method: "post") do %>
+<%#= label_tag('email     : ') %>
+<%#= text_field_tag( :email) %>
+<%#= label_tag('User name : ') %>
+<%#= text_field_tag( :username) %>
+<%#= label_tag('password  : ') %>
+<%#= password_field_tag( :password) %>
+<%#= submit_tag('submit ') %>
+<%#= end %>
 
-
-
+<%= form_for @user, url: {action: "create"}  do |f| %>
+  Email  : <%= f.email_field :email , placeholder: 'example@example.com'%><br />
+  User Name  : <%= f.text_field :username %><br />
+  Password  : <%= f.password_field  :password %><br />
+<%= f.submit %>
 <% end %>
+
+
+
+
+
