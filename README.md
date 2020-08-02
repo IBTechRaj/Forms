@@ -1,24 +1,27 @@
-# README
+# Rails Forms
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a mini project done to practice Rails Forms system.
 
-Things you may want to cover:
+### Features
 
-* Ruby version
+### Technologies
 
-* System dependencies
+### Setup
 
-* Configuration
+### Live Demo
 
-* Database creation
+### Screen Shots
 
-* Database initialization
+### Contribute
 
-* How to run the test suite
+### Author
+* [Rajasekhar K ](https://github.com/IBTechRaj)
 
-* Services (job queues, cache servers, search engines, etc.)
+Github: https://github.com/IBTechRaj
+* Email : krs30018@gmail.com 
+* raj_shk@rediffmail.com
 
-* Deployment instructions
+### Follow Me
 
-* ...
+* [LinkedIn](https://www.linkedin.com/in/rajkatakamsetty/)
+* [Twitter](https://twitter.com/IBTechRaj)
